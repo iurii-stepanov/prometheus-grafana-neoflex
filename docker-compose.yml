@@ -15,9 +15,9 @@ services:
       - 3000:3000
     links:
       - prometheus
-  node-exporter:
-    image: prom/node-exporter:latest
-    container_name: monitoring_node_exporter
-    restart: unless-stopped
-    expose:
-      - 9100
+  #node-exporter:
+  #  image: prom/node-exporter:latest
+  #  container_name: monitoring_node_exporter
+  #  restart: unless-stopped
+  #  expose:
+  #    - 9100
